@@ -1,0 +1,32 @@
+# Deep learning framework
+tensorflow==2.13.0           # For building and training neural networks
+# torch==2.0.1               # Uncomment if using PyTorch instead
+# torchvision==0.15.2       # PyTorch image tools
+
+# Image processing
+opencv-python==4.8.0.76      # For camera input and image capture
+Pillow==10.0.0                # Image file handling
+
+# Data and ML tools
+numpy==1.24.3                 # Numerical operations
+pandas==2.0.3                 # Dataset handling
+scikit-learn==1.3.0           # ML utilities and metrics
+
+# Data augmentation
+imgaug==0.4.0                 # Image transformations
+scikit-image==0.21.0          # Advanced image processing
+
+# Visualization
+matplotlib==3.7.2             # Plotting
+seaborn==0.12.2               # Statistical visualization
+
+# Model saving/loading
+h5py==3.9.0                   # Save/load Keras models
+joblib==1.3.2                 # Save sklearn models or features
+
+# UI (optional)
+streamlit==1.26.0             # Web interface for real-time prediction
+# gradio==3.44.2              # Alternative to Streamlit
+
+# Progress bar
+tqdm==4.66.1                  # For showing training progress
